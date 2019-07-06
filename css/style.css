@@ -1,0 +1,145 @@
+/* size  */
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+.container {
+	width: 1062px;
+	margin: 0 auto;
+}
+.container_two {
+	width: 1008px;
+	margin: 0 auto;
+}
+.container_twow {
+	width: 400px;
+	margin: 0 auto;
+}
+/* positin display margin flex */
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.fixed {
+	position: fixed;
+}
+.relative {
+	position: relative;
+}
+.absolute {
+	position: absolute;
+}
+.line {
+	display: inline-block;
+}
+.clear {
+	content: "";
+	clear: both;
+	display: table;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+}
+.mrg2 { margin-left: 20px; }
+
+/* header */
+
+.header {
+	text-transform: uppercase;
+	padding: 50px 0;
+}
+.header_title {
+	font-family: Inconsolata, monospace;
+	font-size: 30px;
+	color: #000;
+}
+.header_nav {
+	font-family: Playfair Display, serif;
+}
+.header_li {
+	font-size: 14px;
+	margin-left: 130px;
+	opacity: 0.9;
+	color: #626262;
+}
+.header_bg {
+	margin-top: 70px;
+}
+.mrg1 { margin-bottom: 50px; }
+
+/* text_one */
+
+.text_one {
+	padding: 50px 0;
+}
+.opacity_title {
+	font-family: Ubuntu, sans-serif;
+	font-size: 14px;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.main_title {
+	font-family: Playfair Display, serif;
+	font-size: 30px;
+	color: #626262;
+	font-weight: bold;
+	margin: 35px 0;
+}
+.text_one_content {
+	font-family: Playfair Display, serif;
+	font-size: 14px;
+	color: #626262;
+	line-height: 1.5;
+}
+
+/* content */
+.content  {
+	padding: 50px 0;
+}
+.content_article {
+	width: 474px;
+}
+.content_article_img {
+	width: 474px;
+	height: 316px;
+	margin-bottom: 30px;
+}
+.text_one_content_1 {
+	font-family: Playfair Display, serif;
+	font-size: 14px;
+	color: #626262;
+	line-height: 1.5;
+}
+
+/* text_two */
+
+.text_two {
+	padding: 50px 0;
+}
+.text_two_title {
+	font-size: 30px;
+	color: #333333;
+	font-family: Playfair Display, serif;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.qwqwq {
+	width: 100%;
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+}
+.inp {
+	outline: none;
+	border: none;
+}
+
+/* footert */
+
+.footer {
+	padding: 50px 0;
+}
